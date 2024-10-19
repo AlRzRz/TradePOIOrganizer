@@ -2,6 +2,9 @@ import sys
 from tabulate import tabulate
 
 
+def getCurrentPrices(assetLst: list) -> list:
+  pass
+
 
 def readmode():
   with open('output.txt', 'r') as file:
@@ -10,7 +13,7 @@ def readmode():
       lines.append(line)
 
     if len(lines) == 0:
-      print(' NOTHING TO READ (Use the <write> arg to write to the file.) '.center(60, '_'))
+      print(' NOTHING TO READ (Use the <write> arg to write to the file.) '.center(60, '_'), '\n')
       sys.exit()
 
     print(lines)

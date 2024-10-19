@@ -39,6 +39,6 @@ def main(mode: str):
 
 if __name__ == '__main__':
   mode = initialize(sys.argv)
-  print(' PROGRAM HAS STARTED '.center(40, '_'), '\n')
+  print('\n', ' PROGRAM HAS STARTED '.center(40, '_'), '\n')
 
   main(mode=mode)
