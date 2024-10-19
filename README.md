@@ -23,6 +23,9 @@ mode will wipe your previous POI's and run the previously stated functionality.
 * Script will come alongside a txt file. All reading and writing will be done from/to this txt file.
 
 
+**Instructions:**
+
+
 
 **Incoming functionality:**
 

@@ -1,1 +1,3 @@
 output.txt
+myvenv/
+__pycache__/
