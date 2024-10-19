@@ -27,6 +27,6 @@ mode will wipe your previous POI's and run the previously stated functionality.
 **Incoming functionality:**
 
 * Alert System (Will alert you if a certain threshold has been passed or if you are within a certain
-percentage amount of a threshold.
+percentage amount of a threshold.)
 
 * Live exchange info.

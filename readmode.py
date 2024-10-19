@@ -1,0 +1,6 @@
+
+
+
+
+def readmode():
+  pass
