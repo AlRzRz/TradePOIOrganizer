@@ -1,7 +1,6 @@
 import sys
 from readmode import readmode
-from updimode import updimode
-from updamode import updamode
+from updatemode import updmode
 from writemode import writemode
 
 
@@ -13,10 +12,8 @@ def initialize(args: list) -> str:
 
   if arg == 'read':
     return 'read'
-  elif arg == 'updatei':
-    return 'updi'
-  elif arg == 'updatea':
-    return 'upda'
+  elif arg == 'update':
+    return 'update'
   elif arg == 'write':
     return 'write'
   else:
@@ -28,10 +25,8 @@ def main(mode: str):
   
   if mode == 'read':
     readmode()
-  elif mode == 'updi':
-    updimode()
-  elif mode == 'upda':
-    updamode()
+  elif mode == 'update':
+    updmode()
   elif mode == 'write':
     writemode()
 
