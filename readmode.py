@@ -16,7 +16,7 @@ def readmode():
       print(' NOTHING TO READ (Use the <write> arg to write to the file.) '.center(60, '_'), '\n')
       sys.exit()
 
-    print(lines)
+
     cleanedData = []
 
     for line in lines:
