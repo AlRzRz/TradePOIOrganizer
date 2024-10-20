@@ -15,7 +15,7 @@ found, you will be asked whether or not you would like to include the asset into
 
 **WRITE MODE**: Run this if you have never ran this script before. This mode lets you chose which assets
 you would like to include and adds functionality for adding their POI's. If you already have POI's, this
-mode will wipe your previous POI's and run the previously stated functionality.
+mode will wipe your previous POI's and run the previously stated functionality. type 'q' to quit this mode.
 
 
 **How it works:**
