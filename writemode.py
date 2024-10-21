@@ -49,6 +49,11 @@ def inputHandler() -> list | None:
 
     if bidResp == 'q' or askResp == 'q':
       return None
+    else:
+      if bidResp != 'x':
+        bidResp = float(bidResp)
+      if askResp != 'x':
+        askResp = float(askResp)
     
     assets.append([assetResp, bidResp, askResp])
 
@@ -67,8 +72,6 @@ def writemode():
   if assetData is None:
     print(' EXITING PROGRAM '.center(40, '_'), '\n')
     sys.exit()
-
-  print(assetData)
 
   with open("output.txt", 'w') as file:
     for asset, bidPoi, askPoi in assetData:

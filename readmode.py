@@ -1,9 +1,7 @@
 import sys
 from tabulate import tabulate
+from livePricesHandler import addPriceFunctionality
 
-
-def getCurrentPrices(assetLst: list) -> list:
-  pass
 
 
 def readmode():
@@ -26,7 +24,10 @@ def readmode():
       cleanedLst = [asset, bidpoi, askpoi]
       cleanedData.append(cleanedLst)
 
-    headers = ['Asset', 'BidPoi', 'AskPoi']
 
-    print(tabulate(cleanedData, headers=headers, tablefmt='grid'))
+    newData = addPriceFunctionality(cleanedData)
+
+    headers = ['Asset', 'BidPoi', 'AskPoi', 'Live Price', 'Below BidPoi', 'Above AskPoi', 'Within 3% BidPoi', 'Within 3% AskPoi']
+
+    print(tabulate(newData, headers=headers, tablefmt='grid'))
 

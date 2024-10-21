@@ -6,7 +6,8 @@ writing down points of interest in any market.
 Current functionality:
 
 **READ MODE**: Reads out the POI's you have added previously to the script. Only works if you have
-previously added POI's using this script.
+previously added POI's using this script. Will then compare your bidPOI's and askPOI's to the current price
+and state whether you are below your bidPOI or above your askPOI and also whether you are within 3% of your stated POI's.
 
 **UPDATE MODE**: Updates individual assets with new POI's and leaves the rest alone. If asset is not
 found, you will be asked whether or not you would like to include the asset into your POI's.
@@ -31,3 +32,9 @@ mode will wipe your previous POI's and run the previously stated functionality. 
 percentage amount of a threshold.)
 
 * Live exchange info.
+
+
+
+**NOTES:**
+
+* Currently includes functionality for only the top 100 crypto coins as of October 20.
