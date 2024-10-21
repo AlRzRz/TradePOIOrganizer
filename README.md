@@ -1,3 +1,5 @@
+# MARKET POINT OF INTEREST JOURNAL
+
 This script is meant to aid in trade management/organization. It acts as a journal that simplifies
 writing down points of interest in any market.
 
